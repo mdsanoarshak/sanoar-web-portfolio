@@ -1,8 +1,51 @@
-body {font-family: 'Open Sans', sans-serif;}
-
 
 /* nav rilated styles*/
 
-nav{
+nav {
+display: flex;
+justify-content:space-between; 
+align-items: center;
+}
+
+
+
+
+
+
+.nav-title{
   display: flex;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+
+
+  font-family: 'Open Sans', sans-serif;
+}
+.text-color{
+  color:#FD6E0A ;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li {
+
+list-style: none; 
+margin-right: 50px;
+
+}
+nav a{
+text-decoration: none;
+color: #dd1111;
+}
+.btn-primary {
+border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 15px 35px;
+
 }
